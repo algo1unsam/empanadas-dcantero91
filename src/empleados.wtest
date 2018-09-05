@@ -16,6 +16,14 @@ test "sueldo de Gimenez" {
 	galvan.liquidarsueldo(gimenez)
 	assert.equals(15000, gimenez.totaldinero())
 }
+
+// el test está bien y cumple con lo necesario para un testing
+// pero es bastante dificil de seguir
+// a lo mejor se pueden agregar algunos asserts en el medio como para ir entendiendo
+// o también separar los test, por un lado el cobro, por un lado el gasto
+// y por otro las dos cosas juntas pero mas simple (separados de por ejemplo vender empenada
+// que bien podría estar testeado por separado
+// los tests son unitarios, con que testean las cosas de una, está bien
 test "sueldo de Baigorria" {
 	baigorria.venderempanada()
 	baigorria.venderempanada()
